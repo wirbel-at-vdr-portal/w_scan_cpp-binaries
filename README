@@ -9,4 +9,11 @@ or, have been contributed by others.
 If want to show up your w_scan_cpp binary here, contact me.
 
 
+some hints:
+* w_scan_cpp-YYYYMMDD-binary-SYSTEM.tar.bz2
+  - SYSTEM == x86_64 : AMD/INTEL x86 64bit
+  - SYSTEM == aarch64: RPi 4B 64bit
+* .deb debian package, name gives further info, like bullseye or buster
+
+
 --wirbel
