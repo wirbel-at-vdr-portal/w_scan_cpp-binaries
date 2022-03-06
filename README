@@ -6,14 +6,28 @@ This is the collection of w_scan_cpp binaries.
 Those binaries may or may not work for you. They have been either created by me,
 or, have been contributed by others.
 
+Some of those binaries rely on librepfunc on your system.
+You may - or may not - need to install this lib too; depending on who build the binary,
+how the binary was build, which version of w_scan_cpp is packaged.
+
 If want to show up your w_scan_cpp binary here, contact me.
+
+
 
 
 some hints:
 * w_scan_cpp-YYYYMMDD-binary-SYSTEM.tar.bz2
   - SYSTEM == x86_64 : AMD/INTEL x86 64bit
-  - SYSTEM == aarch64: RPi 4B 64bit
+  - SYSTEM == aarch64: 64bit embedded System for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W
 * .deb debian package, name gives further info, like bullseye or buster
+
+Examples:
+* w_scan_cpp-20210218-1_amd64.deb
+  - generic Debian dpkg Package build #1, 64bit x86, w_scan_cpp-20210218
+* w_scan_cpp-20210331-1bullseye_amd64.deb
+  - Debian bullseye dpkg Package build #1, 64bit x86, w_scan_cpp-20210331
+* w_scan_cpp-20220119-binary-aarch64.tar.bz2
+  - bz2 compressed tarball, 64bit embedded System for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W 
 
 
 --wirbel
