@@ -18,8 +18,12 @@ If want to show up your w_scan_cpp binary here, contact me.
 some hints:
 * w_scan_cpp-YYYYMMDD-binary-SYSTEM.tar.bz2
   - SYSTEM == x86_64 : AMD/INTEL x86 64bit
-  - SYSTEM == aarch64: 64bit embedded System for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W
+  - SYSTEM == aarch64: 64bit embedded ARM System, for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W
+  - SYSTEM == armv7l: 32bit embedded ARM System, (runs on any RPi)
 * .deb debian package, name gives further info, like bullseye or buster
+* the date YYYYMMDD may/may not reflect the *build date* instead of the *packaged w_scan_cpp version*.
+  If so, it is expected that this is the latest git version for this date, instead of a released one.
+* There may/may not be a dependency on librepfunc. Build it, or get a binary separately.
 
 Examples:
 * w_scan_cpp-20210218-1_amd64.deb
