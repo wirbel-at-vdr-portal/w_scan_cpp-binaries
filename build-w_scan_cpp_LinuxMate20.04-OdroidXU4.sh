@@ -1,7 +1,7 @@
 #! /bin/sh
 start=$(date +%s)
 
-echo "Raspberry Pi OS (32bit/64bit bullseye; January 28th 2022) install script for w_scan_cpp"
+echo "Ubuntu Mate (32bit) Odroid XU3/XU4 install script for w_scan_cpp"
 
 cd /usr/src
 
@@ -25,7 +25,7 @@ echo "HAVE_CURL                  = $HAVE_CURL"
 echo "HAVE_LIBCAP                = $HAVE_LIBCAP"
 echo "HAVE_LIBREPFUNC_MINVERSION = $HAVE_LIBREPFUNC_MINVERSION"
 
-echo "***** build time will be about 30 minutes. *****"
+echo "***** build time will be about 10 minutes. *****"
 sleep 10
 
 #-------------------------------------------------
