@@ -31,7 +31,21 @@ Examples:
 * w_scan_cpp-20210331-1bullseye_amd64.deb
   - Debian bullseye dpkg Package build #1, 64bit x86, w_scan_cpp-20210331
 * w_scan_cpp-20220119-binary-aarch64.tar.bz2
-  - bz2 compressed tarball, 64bit embedded System for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W 
+  - bz2 compressed tarball, 64bit embedded System for RPi-3B/3B+/4/400/CM3/CM3+/CM4/Zero2W
+  
+Up to now, binaries are here for
+* Debian (Intel/AMD) x86 deb Packages, 32bit and 64bit for Duster and Bullseye.
+  For most recent multiarch Docker containers, you may want to check also: https://github.com/urfin78/w_scan_cpp-container 
+* Linux From Scratch build binaries for x86 64bit (LFS user dont need them really btw. :D)
+* Raspberry Pi Raspian OS binaries, 32bit (armv7x) and 64bit (aarch64)
+* Armbian OS binaries (should run on many ARM dev boards)
+* Hardkernel Ubuntu Mate Packages for Odroid XU*/HC* (ie. XU4Q)
+
+There are also install scripts here, which may help for your distribution.
+Those scripts should be placed into /usr/src and made executable ('chmod a+x <script>').
+If they run successfully, those scripts produce one of those famous binaries as stored here - fresh && warm.
+Also they create tarballs for librepfunc (if required for your distri) and w_scan_cpp.
+It's recommended to get fresh package lists before hand.
 
 
 --wirbel
