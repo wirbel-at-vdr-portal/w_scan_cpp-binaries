@@ -1,7 +1,8 @@
 # w_scan_cpp-binaries
 
 This is the collection of w_scan_cpp binaries.
-
+Before trying one of those, you could also check for packages from your destribution,
+or https://repology.org/project/w-scan-cpp/versions.
 
 Those binaries may or may not work for you. They have been either created by me,
 or, have been contributed by others.
